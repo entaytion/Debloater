@@ -1,0 +1,17 @@
+#!/sbin/sh
+
+OUTFD=2
+ui_print() {
+  echo -ne "ui_print $@\n" > /proc/self/fd/$OUTFD
+  echo -ne "ui_print\n" > /proc/self/fd/$OUTFD
+}
+
+export ZIPFILE="$3"
+export TMPDIR="/tmp"
+
+ui_print "Extracting debloat.sh..."
+unzip -o "$ZIPFILE" "debloat.sh" -d "$TMPDIR"
+chmod +x "$TMPDIR/debloat.sh"
+"$TMPDIR/debloat.sh" $APP_LIST
+DELETED=$?
+exit 0

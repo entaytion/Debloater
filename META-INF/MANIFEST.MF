@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: 8AgXU1+acVzJs7kEIWIXXpb/JI0=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: b4wvqxRoOvT1pzHWUCsAAWHk1a0=
+
+Name: util_functions.sh
+SHA1-Digest: t9mN5GvLLXY+erTvMdJp7vqthP8=
+
+Name: grep
+SHA1-Digest: 9j7CIgZ4lGuDPG/6a8ktI0992rU=
+
+Name: busybox-arm
+SHA1-Digest: sPK401CxNwl4TyYikH607bvd7Jk=
+
+Name: installer.sh
+SHA1-Digest: KEQ3SdD0R1JDd/O7O8jJBHiWJfk=
+
